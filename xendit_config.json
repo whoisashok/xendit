@@ -1,0 +1,31 @@
+{
+  "app": {
+    "name": "xendit",
+    "debug": true,
+    "host": "localhost:8085",
+    "secret": ""
+  },
+
+  "sentry"    : "",
+  "logfile"   : "/home/ashok/workspace/src/xendit/log/xendit_log.log",  
+  "database"  : {
+      "host"    : "localhost",
+      "port"    : 5432,
+      "user"    : "postgres",
+      "pass"    : "postgres",
+      "name"    : "xendit_db"
+  },
+
+  "xendit": {
+    "base_url": "https://api.xendit.co/",
+    "disbursements": "disbursements",
+    "disbursement_id": "disbursements/disbursement_id",
+    "external_id=": "disbursements?external_id=",
+    "batch_disbursements": "batch_disbursements"
+  },
+
+  "xendit_keys": {
+    "Authorization": "Basic eG5kX2RldmVsbfgfgdzfgvb"
+
+  }
+}
